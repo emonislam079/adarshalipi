@@ -5,8 +5,7 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Service from './component/Service/Service';
 import About from './component/About/About';
-import Teacher from './component/Teacher/Teacher';
-import Photo from './component/Photo/Photo';
+import Teachers from './component/Teachers/Teachers';
 import Footer from './component/Footer/Footer';
 import NotFound from './component/NotFound/NotFound';
 
@@ -29,13 +28,10 @@ function App() {
       <Route path="/service">
         <Service></Service>
       </Route>
-      <Route path="/teacher">
-        <Teacher></Teacher>
+      <Route path="/teachers">
+        <Teachers></Teachers>
       </Route>
-      <Route path="/Photo">
-        <Photo></Photo>
-      </Route>
-      <Route path="*">
+            <Route path="*">
         <NotFound></NotFound> 
       </Route>
       </Switch>

@@ -1,0 +1,7 @@
+.teachers {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+}

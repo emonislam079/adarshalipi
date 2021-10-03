@@ -1,0 +1,12 @@
+.teacher {
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 15px;
+}
+.teacher:hover {
+  border: 2px solid white;
+  background-color: rgb(243, 237, 227);
+}
+.teacher h1 {
+  color: blue;
+}
