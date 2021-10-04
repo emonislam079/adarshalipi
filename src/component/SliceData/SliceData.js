@@ -1,0 +1,24 @@
+import React from 'react';
+import { Card, Col } from 'react-bootstrap';
+
+const SliceData = (props) => {
+    const {name, details, cost, img}= props.slice
+
+return (
+    <Col>
+  <Card>
+    <Card.Img variant="top" src={img} width="150px" height="200px" />
+    <Card.Body >
+      <h1>Course:{name}</h1>
+      <Card.Text className="my-3">
+        {details}
+        <h3 className="my-3">Cost:{cost}</h3>
+        <button className="btn btn-primary">Join Now</button>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+);
+};
+
+export default SliceData;

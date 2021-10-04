@@ -16,9 +16,9 @@ const Teachers = () => {
             <h1 className="fw-1 fw-bold mb-5 text-primary">Our Teachers</h1>
             <div className='teachers'>
             {
-                    Teachers.map(Teac => <Teacher
-                        key={Teac.id}
-                        Teacher={Teac}>
+                    Teachers.map(master => <Teacher
+                        key={master.id}
+                        Teacher={master}>
                     </Teacher>)
                 }
             </div>

@@ -1,7 +1,8 @@
 import React from 'react';
-import { Card, Carousel, Col, Row } from 'react-bootstrap';
+import {Carousel} from 'react-bootstrap';
 import images1 from '../../images/first.jpg'
 import images2 from '../../images/second.jpg'
+import SliceDatas from '../SliceDatas/SliceDatas';
 
 
 
@@ -32,9 +33,11 @@ const Home = () => {
   </Carousel.Item>
 </Carousel>
 </div>
+{/* Our Services */}
 <div>
     <h1 className="my-5 text-primary">Our Services</h1>
-    
+    <SliceDatas></SliceDatas>
+        
 </div>
         </div>
     );

@@ -7,11 +7,11 @@ const Service = (props) => {
         <Col>
       <Card>
         <Card.Img variant="top" src={img} width="150px" height="200px" />
-        <Card.Body>
+        <Card.Body >
           <h1>Course:{name}</h1>
-          <Card.Text>
+          <Card.Text className="my-3">
             {details}
-            <h3>Cost:{cost}</h3>
+            <h3 className="my-3">Cost:{cost}</h3>
             <button className="btn btn-primary">Join Now</button>
           </Card.Text>
         </Card.Body>
