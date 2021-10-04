@@ -12,7 +12,7 @@ const Teachers = () => {
             .then(data => setTeachers(data))
     }, []);
     return (
-        <div className='mb-5'>
+        <div className='mb-5 container'>
             <h1 className="fw-1 fw-bold mb-5 text-primary">Our Teachers</h1>
             <div className='teachers'>
             {
